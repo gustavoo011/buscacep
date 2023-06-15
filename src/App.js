@@ -30,7 +30,7 @@ function App() {
         <input type="text" placeholder="Digite o CEP" value = {input} onChange={(e) => setInput(e.target.value)}/>
 
         <button className="buttonSearch" onClick={handleSearch}>
-          <FiSearch size ={25} color = "#f2f2f2" />
+          <FiSearch size ={25} color = "#ffff" />
           </button>
       </div>
 
